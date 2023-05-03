@@ -1,0 +1,63 @@
+\documentclass[polish,polish,a4paper]{article}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[margin = 1.in]{geometry}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage{url}
+
+\pgfplotsset{compat=1.16}
+\newcommand{\name}[1]{\sffamily\bfseries\scriptsize #1}
+
+\newcommand{\frontpage}[9]{
+%% #1 - nazwa kursu
+%% #2 - kierunek 
+%% #3 - termin 
+%% #4 - temat 
+%% #5 - problem
+%% #6 - skład grupy
+%% #7 - brak
+%% #8 - data
+%% #9 - nr raportu
+\noindent
+\begin{tabularx}{\textwidth}{@{}X@{}l@{}}
+    \begin{tabular}[t]{||m{0.5\textwidth}|m{0.25\textwidth}||}
+        \hhline{|t:==:t|}
+        \multicolumn{2}{||c||}{}\\
+        \multicolumn{2}{||c||}{{\LARGE #1}}\\
+        \multicolumn{2}{||c||}{}\\
+        \hhline{||--||}
+        \name{Kierunek} & \name{Termin}\\
+        \textit{#2} & \textit{#3} \\
+        \hhline{||--||}
+        %\name{Imię, nazwisko, numer albumu} & \name{Nr laboratorium}\\
+        %\textit{#6} & \textit{#5} \\
+        \name{Imię, nazwisko, numer albumu} & \name{Data}\\
+        \textit{#6} & \textit{#8} \\
+        \hhline{||--||}
+        %\name{Link do projektu} & \name{Data}\\
+        %\url{#7} & \textit{#8} \\
+        \multicolumn{2}{||l||}{\name{Link do projektu}} \\
+        \multicolumn{2}{||l||}{\url{#7}} \\
+        \hhline{|b:==:b|}
+    \end{tabular}
+    &
+    \includegraphics[width=2.25cm,valign=T]{images/PWr.png}
+\end{tabularx}
+\vspace{.5cm}
+
+\begin{center}
+    \LARGE \textsc{Raport #9}
+\end{center}
+
+\noindent\rule[0.5cm]{\textwidth}{1pt}
+}
