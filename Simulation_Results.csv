@@ -1,0 +1,17 @@
+dinoID;Specie;Name;Health;Hunger;Thirst
+1;Chalaceraptor;Omnivore;70;200;190;
+2;Kubozaur;Carnivore;80;200;190;
+3;Triceratops;Omnivore;85;210;190;
+4;Kubozaur;Carnivore;100;210;190;
+5;Chalaceraptor;Omnivore;100;200;190;
+6;Chalaceraptor;Omnivore;80;215;190;
+7;Lelozaur;Herbivore;180;980;940;
+8;Brachiosaurus;Herbivore;80;480;440;
+9;Lelozaur;Herbivore;180;940;960;
+10;Triceratops;Omnivore;85;200;190;
+11;Triceratops;Omnivore;90;210;190;
+12;Lelozaur;Herbivore;200;940;940;
+13;Kubozaur;Carnivore;90;210;190;
+14;Kubozaur;Carnivore;100;210;190;
+15;Lelozaur;Herbivore;160;940;940;
+16;Brachiosaurus;Herbivore;100;460;440;

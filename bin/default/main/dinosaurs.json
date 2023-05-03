@@ -1,0 +1,58 @@
+{
+  "dinosaurs":[
+	{
+		"herdID": 1,
+		"name": "Tyrannosaurus",
+		"type": 0,
+		"health": 100,
+		"attack": 10,
+	   	"hunger": 500,
+		"thirst": 500	
+	},
+	{
+		"herdID": 2,
+		"name": "Brachiosaurus",
+		"type": 2,
+		"health": 100,
+		"attack": 0,
+	   	"hunger": 500,
+		"thirst": 500	
+	},
+	{
+		"herdID": 3,
+		"name": "Triceratops",
+		"type": 1,
+		"health": 100,
+		"attack": 10,
+	   	"hunger": 250,
+		"thirst": 250	
+	},
+	{
+		"herdID": 4,
+		"name": "Chalaceraptor",
+		"type": 1,
+		"health": 100,
+		"attack": 5,
+	   	"hunger": 250,
+		"thirst": 250	
+	},
+	{
+		"herdID": 5,
+		"name": "Cyceratops",
+		"type": 0,
+		"health": 100,
+		"attack": 10,
+	   	"hunger": 250,
+		"thirst": 250
+	},
+	{
+		"herdID": 6,
+		"name": "Lelozaur",
+		"type": 2,
+		"health": 200,
+		"attack": 0,
+	   	"hunger": 1000,
+		"thirst": 1000
+	}
+	]
+}
